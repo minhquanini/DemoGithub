@@ -1,0 +1,12 @@
+﻿@model DemoImage.Models.Image
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Create","Content",FormMethod.Post,new{enctype="mutipart/form-data"}))
+{
+    <input type="file" name="ImageData" id="ImageData" onchange="fileCheck(this);" />
+}

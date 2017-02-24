@@ -147,6 +147,7 @@
       <LastGenOutput>ImageModel.cs</LastGenOutput>
     </Content>
     <Content Include="Views\View.cshtml" />
+    <Content Include="Views\Upload\View.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
